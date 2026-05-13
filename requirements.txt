@@ -1,0 +1,6 @@
+sentence-transformers 
+scikit-learn
+langchain
+langchain-ollama
+langchain-text-splitters
+pypdf
