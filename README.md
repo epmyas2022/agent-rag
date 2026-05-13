@@ -12,7 +12,7 @@ Poyecto de ejemplo para un agente RAG (Retrieval-Augmented Generation) utilizand
 1. Clona este repositorio:
 
    ```bash
-   git clone
+   git clone https://github.com/epmyas2022/agent-rag.git
     ```
 
 2. Navega al directorio del proyecto:
