@@ -36,8 +36,7 @@ async def main():
         print(f"{Fore.RED}Error: Could not read the PDF file.{Fore.RESET}")
         exit(1)
 
-    print(document)  # Print the first 500 characters of the document for verification
-    splitter = RecursiveCharacterTextSplitter(chunk_size=350, chunk_overlap=20)
+    splitter = RecursiveCharacterTextSplitter(chunk_size=600, chunk_overlap=50)
 
     chunks = splitter.split_text(document)
 
